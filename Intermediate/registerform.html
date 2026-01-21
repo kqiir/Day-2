@@ -9,69 +9,73 @@
     <header><h2>Registration Form</h2></header>
     <form>
       <label for="firstname"> Firstame</label>
-      <input type="text" name="firstname" id="firstname" required/>
+      <input type="text" name="firstname" id="firstname" />
 
       <br />
       <br />
 
       <label for="secondname">Lastname</label>
-      <input type="text" name="secondname" id="secondname" required/>
+      <input type="text" name="secondname" id="secondname" />
 
+      <br />
       <br />
 
       <label for="course">Course</label>
-      <select id="course" name="Courses" required >
+      <select id="course" name="Courses">
         <option value="HTML">HTML</option>
         <option value="CSS">CSS</option>
         <option value="JavaScript">JavaScript</option>
       </select>
 
       <br />
+      <br />
 
       <label for="gender">Gender:</label>
       <br />
-      <input type="radio" name="gender" value="male" required/>Male
+      <input type="radio" id="male" name="gender" value="male" />Male
       <br />
-      <input type="radio" name="gender" value="female" required/> Female
+      <input type="radio" id="female" name="gender" value="female" /> Female
       <br />
-
       <br />
 
       <label for="hobbies">Hobbies:</label>
       <br />
-      <input type="checkbox" name="checkbox" value="programming" /> Programming
+      <input type="checkbox" name="programming" value="programming" />
+      Programming
       <br />
-      <input type="checkbox" name="checkbox" value="basketlball" /> Basketball
+      <input type="checkbox" name="basketball" value="basketlball" /> Basketball
       <br />
-      <input type="checkbox" name="checkbox" value="football" /> Football
+      <input type="checkbox" name="football" value="football" /> Football
       <br />
-      <input type="checkbox" name="checkbox" value="reading" /> Reading
+      <input type="checkbox" name="reading" value="reading" /> Reading
+      <br />
 
       <br />
 
       <label for="phonenumber">Phone:</label>
-      <input type="number" name="phonenumber" id="phonenumber" required/>
+      <input type="number" name="phonenumber" id="phonenumber" />
 
+      <br />
       <br />
 
       <label for="address">Address:</label>
       <br />
-      <textarea id="adress" name="address" rows="5" cols="50" required></textarea>
+      <textarea id="address" name="address" rows="5" cols="50"></textarea>
 
       <br />
-      <label for="email" name="email">Email:</label>
-      <input type="text" name="email" id="email" required />
+      <br />
+      <label for="email">Email:</label>
+      <input type="text" name="email" id="email" />
       <br />
       <br />
-      <label for="password" name="password">Password:</label>
-      <input type="password" name="password" id="password" required/>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" />
       <br />
       <br />
-      <action="registerform.html">
-      <input type="submit" value="Submit" />
-
-      <action="registerform.html">
-      <input type="reset" value="Reset" /> 
+      <form action="registerform.html">
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </form>
     </form>
   </body>
 </html>
